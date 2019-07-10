@@ -1,0 +1,147 @@
+[ {
+  "line" : 1,
+  "elements" : [ {
+    "line" : 3,
+    "name" : "login with correct credentials",
+    "description" : "",
+    "id" : "login-to-hris;login-with-correct-credentials",
+    "type" : "scenario",
+    "keyword" : "Scenario",
+    "steps" : [ {
+      "result" : {
+        "error_message" : "cucumber.api.PendingException: TODO: implement me\n\tat Step_defs.step.user_is_on_login_page(step.java:25)\n\tat ✽.User is on login page(file:src/test/resources/Features/Feature01.feature:4)\n",
+        "duration" : 1779522915,
+        "status" : "pending"
+      },
+      "line" : 4,
+      "name" : "User is on login page",
+      "match" : {
+        "location" : "step.user_is_on_login_page()"
+      },
+      "keyword" : "Given "
+    }, {
+      "result" : {
+        "duration" : 16746,
+        "status" : "skipped"
+      },
+      "line" : 5,
+      "name" : "User enters correct Username",
+      "match" : {
+        "location" : "step.user_enters_correct_Username()"
+      },
+      "keyword" : "When "
+    }, {
+      "result" : {
+        "duration" : 2759,
+        "status" : "skipped"
+      },
+      "line" : 6,
+      "name" : "User enters correct password",
+      "match" : {
+        "location" : "step.user_enters_correct_password()"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 2296,
+        "status" : "skipped"
+      },
+      "line" : 7,
+      "name" : "User click signin button",
+      "match" : {
+        "location" : "step.user_click_signin_button()"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 2224,
+        "status" : "skipped"
+      },
+      "line" : 8,
+      "name" : "User redirected to timesheet",
+      "match" : {
+        "location" : "step.user_redirected_to_timesheet()"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "status" : "undefined"
+      },
+      "line" : 9,
+      "name" : "user verifies the home page",
+      "match" : { },
+      "keyword" : "And "
+    } ]
+  } ],
+  "name" : "Login to hris",
+  "description" : "",
+  "id" : "login-to-hris",
+  "keyword" : "Feature",
+  "uri" : "file:src/test/resources/Features/Feature01.feature",
+  "tags" : [ ]
+} , {
+  "line" : 2,
+  "elements" : [ {
+    "line" : 4,
+    "name" : "login with incorrect credentials",
+    "description" : "",
+    "id" : "login-to-hris;login-with-incorrect-credentials",
+    "type" : "scenario",
+    "keyword" : "Scenario",
+    "steps" : [ {
+      "result" : {
+        "status" : "undefined"
+      },
+      "line" : 5,
+      "name" : "User is on Login page",
+      "match" : { },
+      "keyword" : "Given "
+    }, {
+      "result" : {
+        "status" : "undefined"
+      },
+      "line" : 6,
+      "name" : "User Enters incorrect username",
+      "match" : { },
+      "keyword" : "When "
+    }, {
+      "result" : {
+        "status" : "undefined"
+      },
+      "line" : 7,
+      "name" : "User Enter incorrect password",
+      "match" : { },
+      "keyword" : "When "
+    }, {
+      "result" : {
+        "status" : "undefined"
+      },
+      "line" : 8,
+      "name" : "User  clicks SignIn button",
+      "match" : { },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "status" : "undefined"
+      },
+      "line" : 9,
+      "name" : "a Invlaid login msg is shown",
+      "match" : { },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "status" : "undefined"
+      },
+      "line" : 10,
+      "name" : "Qaitupdates is shown",
+      "match" : { },
+      "keyword" : "And "
+    } ]
+  } ],
+  "name" : "login to hris",
+  "description" : "",
+  "id" : "login-to-hris",
+  "keyword" : "Feature",
+  "uri" : "file:src/test/resources/Features/Feature02.feature",
+  "tags" : [ ]
+} ]
